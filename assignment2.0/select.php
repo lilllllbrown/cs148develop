@@ -1,38 +1,23 @@
 <?php
-
-//##############################################################################
-//
-// This page lists your tables and fields within your database. if you click on
-// a database name it will show you all the records for that table. 
-// 
-// 
-// This file is only for class purposes and should never be publicly live
-//##############################################################################
-include "top.php";
- //now print out each record
-{
-    $query = 'SELECT * FROM ' . $tableName;
-    $info2 = $thisDatabaseReader->select($query, "", 0, 0, 0, 0, false, false);
-
-    $highlight = 0; // used to highlight alternate rows
-    foreach ($info2 as $rec) {
-        $highlight++;
-        if ($highlight % 2 != 0) {
-            $style = ' odd ';
-        } else {
-            $style = ' even ';
-        }
-        print '<tr class="' . $style . '">';
-        for ($i = 0; $i < $columns; $i++) {
-            print '<td>' . $rec[$i] . '</td>';
-        }
-        print '</tr>';
-    }
-
-    // all done
-    print '</table>';
-    print '</aside>';
-}
-print '</article>';
-include "footer.php";
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 ?>
+<html>
+
+    <a href="q01.php">Query 1</a> <br>
+    <a href="q02.php">Query 2</a><br>
+    <a href="q03.php">Query 3</a><br>
+    <a href="q04.php">Query 4</a><br>
+    <a href="q05.php">Query 5</a><br>
+    <a href="q06.php">Query 6</a><br>
+    <a href="q07.php">Query 7</a><br>
+    <a href="q08.php">Query 8</a><br>
+    <a href="q09.php">Query 9</a><br>
+    <a href="q10.php">Query 10</a><br>
+    <a href="q11.php">Query 11</a><br>
+    <a href="q12.php">Query 12</a><br>
+    
+</html>

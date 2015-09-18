@@ -24,7 +24,7 @@
                 <li><b>Assignment 1.0:</b>  <a href="assignment1.0/tables.php"> Sample Tables </a>
                    
                 </li>
-                <li><b>Assignment 2.0:</b> <a href="assignment1.0/select.php"> SQL - Select </a>
+                <li><b>Assignment 2.0:</b> <a href="assignment2.0/select.php"> SQL - Select </a>
                    
                 </li>
             </ul>
